@@ -1,0 +1,4 @@
+# Ignore any birnaries and Emacs backups.
+main
+*.o
+*~
