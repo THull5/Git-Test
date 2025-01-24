@@ -9,6 +9,14 @@ int sum(int n){
     return sum;
 }
 
+int product(int n){
+    int product = 1;
+    for(int i = 1; i <= n; i++){
+        product *= i;
+    }
+    return product;
+}
+
 int main(){
   int n;
   cout << "Hello World!" << endl;
@@ -16,7 +24,9 @@ int main(){
   cin >> n;
   
   int total = sum(n);
-  cout << "Your value is " << total << endl;
+  int total2 = product(n);
+  cout << "Your sum value is: " << total << " and your product value is: " << 
+  total2 << endl;
   return 0;
 }
 
