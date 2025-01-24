@@ -25,7 +25,7 @@ int main(){
   
   int total = sum(n);
   int total2 = product(n);
-  cout << "Your sum value is " << total << " and your product value is: " << 
+  cout << "Your sum value is: " << total << " and your product value is: " << 
   total2 << endl;
   return 0;
 }
